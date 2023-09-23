@@ -1,0 +1,177 @@
+/*why, just why you*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap');
+
+body {
+    font-family: 'Roboto Mono', monospace;
+    margin-top: 0;
+    margin-bottom: 0rem;
+    margin-left: 0rem;
+    margin-right: 0rem;
+    width: 100%;
+    overflow-x: hidden;
+    background-color: black;
+    color: white;
+}
+
+/*nav bar*/
+nav {
+    padding-left: 20rem;
+    width: 100%;
+    background-color: #9da6a5;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0;
+}
+
+nav a:hover {
+    color: white;
+    background-color: #34383a;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    padding: 1rem 1rem;
+}
+
+.navImg {
+    margin-right: 0.5rem;
+    width: 8%;
+}
+
+/*extra*/
+img {
+    border-radius: 5%;
+    width: 50%;
+}
+
+.productImage {
+    width: 50%;
+    height: 50%;
+}
+
+.buyButton {
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: #9da6a5;
+    border: none;
+    color: black;
+    font-weight: bold;
+}
+
+.buyButton:hover {
+    background-color: #8a0303;
+    color: white;
+}
+
+.buyButton:hover:after {
+    content: " YOU SINNER";
+}
+
+.moreInfo {
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: #9da6a5;
+    border: none;
+    color: black;
+    font-weight: bold;
+}
+
+.moreInfo:hover {
+    background-color: #8a0303;
+    color: white;
+}
+
+/*main section*/
+
+.mainSect {
+    padding-top: 5rem;
+    margin-left: 20rem;
+    margin-right: 20rem;
+}
+
+.mainSectFlexbox {
+    display: flex;
+    flex-direction: row;
+    gap: 8rem;
+}
+
+.itemSummary {
+    padding: 5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    text-decoration: underline;
+}
+
+h1,
+h2 {
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+/*Summary*/
+.info {
+    margin-top: 8rem;
+    margin-left: 20rem;
+    margin-right: 20rem;
+    margin-bottom: 8rem;
+}
+
+.infoFlexbox {
+    display: flex;
+    gap: 10rem;
+
+}
+
+.featurebox {
+    color: black;
+    background-color: #9da6a5;
+    margin: 2rem 0rem;
+    padding-left: 2rem;
+    padding-right: 8rem;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    border-radius: 10%;
+}
+
+/*Related*/
+.relatedItems {
+    padding-left: 20rem;
+    padding-right: 20rem;
+    text-align: center;
+}
+
+.relatedFlexbox {
+    justify-content: center;
+    display: flex;
+    gap: 10rem;
+}
+
+.first,
+.second,
+.third {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/*footer*/
+
+footer {
+    color: black;
+    background-color: #9da6a5;
+    padding: 1rem;
+    margin-top: 6rem;
+    text-align: center;
+}
+
+footer a:hover {
+    color: white;
+    background-color: #34383a;
+}
